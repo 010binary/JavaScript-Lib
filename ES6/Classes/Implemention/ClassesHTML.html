@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Class binding</title>
+    <style>
+      h1 {
+        font-size: 30px;
+        width: 100%;
+        border-bottom: 2px solid black;
+        color: rgb(0, 171, 171);
+        padding: 10px;
+      }
+      #root {
+        font-size: 20px;
+      }
+      li {
+        text-transform: uppercase;
+        list-style: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Classes: HTML list binding</h1>
+    <div id="root">
+      <ul id="myList">
+      
+      </ul>
+    </div>
+    <script src="./Binding.js">
+      const myList = document.getElementById('myList');
+    </script>
+  </body>
+</html>
