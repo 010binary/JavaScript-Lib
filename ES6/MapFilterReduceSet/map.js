@@ -2,6 +2,7 @@
  * Map is a data Structure the holds Key vaules pair and remembers all the insertion of the keys any value can be used as a key objs, arrays and other primitive values included and as values
  * Maps solve the problem of maping the object as key to a value
  * Please not that WeakMap and Map are the same thing
+ * this create a hash map
  */
 
 const firstobj = {}

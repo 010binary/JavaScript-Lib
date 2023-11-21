@@ -3,6 +3,7 @@
  * returns a new list mapped to the function passed to it 
  * the filter removes element that does not match the function
  * while the map changes the element to fit the function passed
+ * this is an array method
  */
 
 const NormalArray = [1, 2, 3, 4, 5]
