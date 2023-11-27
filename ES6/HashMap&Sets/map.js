@@ -16,7 +16,7 @@ myMap.set(1, 'one'); // this is mainly used to add stuffs to the Map just pass t
 myMap.set(2, 'one'); // this is mainly used to add stuffs to the Map just pass the key and the value 
 console.log(myMap);
 
-myMap.delete(1); // this Used to delete the value passed to it 
+myMap.delete(secondobj); // this Used to delete the value passed to it 
 console.log(myMap);
 
 console.log(myMap.has(2)); // this is used to check if a value is in the Map

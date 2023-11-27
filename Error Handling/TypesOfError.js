@@ -1,4 +1,6 @@
-/**Understanding the strict mode in Javascript
+
+/**
+ * Understanding the strict mode in Javascript
  * Normally jaascript is very forgiving when we make mistakes in our code 
  * Thats why the code at line 9 and 10 works but if you use the strict mode it won't
  * 
@@ -16,11 +18,11 @@ let variable = "Austin"; //common error
 
 // SyntaxError
 let object = [1, 2, 3, 4, 5]; //most times it has this structure Unexpected token
-// object..indexOf(3)
+// object..indexOf(3) this can't be caught
 
 // TypeError
 const name = "austine";
-// name = 12;
+// name = 12; 
 
-// this is are the major types of error
+// To see other type of Error go the MDN reference
 
